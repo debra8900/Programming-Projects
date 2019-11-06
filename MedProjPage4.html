@@ -1,0 +1,120 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="commonElements.css">
+  <head>
+    <title>TeleMedicine</title>
+    <style>
+      body{
+
+        background-color: SteelBlue;
+        color: DarkSlateGrey;
+      }
+      img{
+
+        height:50px;
+        width:50px;
+      }
+
+      #medInfo{
+        font-size: 11pt;
+      }
+
+      .telpic{
+
+        height: 300px;
+        width: 500px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <center><table border = "1" class="navMenu">
+      <tr>
+      <td><a href = "MedProjMainPage.html">Back to the Home Page</a></td>
+      <td><a href = "MedProjPage1.html">Smart Inhalers</a></td>
+      <td><a href = "MedProjPage2.html">Medical Applications</a></td>
+      <td><a href = "MedProjPage3.html">IOT For Healthcare</a></td>
+      <td><a href = "MedProjPage4.html">TeleMedicine</a></td>
+      <td><a href = "SurveyPage.html">Survey</a></td>
+
+      </tr>
+
+    </table>
+      </center>
+     
+      <img class="telpic" src ="http://www.pchalliance.org/sites/pchalliance/files/Telemedicine-Loop.png" align="right">
+
+
+    <center><b><h1>TeleMedicine</h1></b></center>
+    
+
+    
+    <center><table id = "medInfo" border = "1">
+    <tr>
+      
+      <td>Pain Factor</td>
+      <td>Severity</td>
+      <td>Emoticon</td>
+      <td>Average Facility Wait Time</td>
+    </tr>
+<!--Page 4 of the website discusses the medical technology of telehealth -->
+
+    <script> 
+
+function PatientGen(){
+
+
+//Generates patient status and number of severity per case, and ER wait time without telemedicine
+for(i = 0; i < 10; i++){
+var patient1 = Math.floor(Math.random() * 10) + 1;
+  document.write("<tr><td><br>" + patient1 + "</td>");
+    if(patient1 >= 9){
+       document.write("<td><br>F</td>");
+       document.write("<td><img src = 'https://hotemoji.com/images/dl/q/screaming-emoji-by-twitter.png'></td>");
+       document.write("<td><br>60 mins</td></tr>");    
+    }
+    else if(patient1 < 9 && patient1 > 6){
+       document.write("<td><br>D</td>");
+      document.write("<td><img src = 'https://www.dictionary.com/e/wp-content/uploads/2018/08/crying-face-emoji.png'></td>");
+      document.write("<td><br>70 mins</td></tr>");
+    }
+    else if(patient1 <= 6 && patient1 > 3 ){
+       document.write("<td><br>C</td>");
+       document.write("<td><img src = 'https://images.emojiterra.com/twitter/512px/1f914.png'></td>");
+       document.write("<td><br>80 mins</td></tr>");       
+    }
+    else if(patient1 <= 3 && patient1 >= 2){
+       document.write("<td><br>B</td>");
+       document.write("<td><img src = 'https://radio.wosu.org/sites/wosu2/files/styles/medium/public/201510/emoji.png'></td>");
+       document.write("<td><br>90 mins</td></tr>"); 
+    }
+    else if(patient1 < 2){
+       document.write("<td><br>A</td>");
+       document.write("<td><img src = 'https://pbs.twimg.com/profile_images/697504084337627136/FhP4OSVu_400x400.png'></td>");
+       document.write("<td><br>100 mins</td></tr>"); 
+
+    }
+    else{
+      alert("No patients are coming in");
+    }
+
+}
+}
+
+
+
+
+document.write("Telemedicine was originally thought of as a way to treat patients who were located far away from local health facilities or areas of with shortages of medical professionals. Out of the creation of telemedicine, one big innovation is robotic surgeries, and other innovations were born. Some other clear benefits of telemedicine are less time spent in the doctors office or going to the ER for cases that do not require intensive care, more accessible healthcare for many people, and more convenient care, and the rise of telemedicine companies and medical providers. Many offer patients 24/7 access to medical care with an contracted on call doctors 24/7. Telemedicine platforms provide a way for physicians to offer virtual visits with their own patients. Increasingly, telemedicine is becoming a way to give medical practices an edge in a competitive healthcare landscape where it is difficult to stay independent or maintain a healthy bottom line.");
+
+PatientGen();
+    </script>
+  </table></center>
+<img class="telpic" src="http://www.telehealthsolution.com/wp-content/uploads/2018/09/skilled-nursing-telehealth-solution.png" align="right">
+    <center><p>The chart simulation above shows patient data and average ER wait time that would be necessary without telemedicine being considered a possibility in treatment. With this simultation and the fact that not all conditions require an in person visit, telemedicine, an amazing new Healthcare IT venture makes the patient and doctor experience easier.</center></p>
+    <hr>
+    Before you log off, please <a href = "SurveyPage.html">Click here to take a survey</a>
+    <hr>
+    For more information about telemedicine, <a href = "https://chironhealth.com/telemedicine/what-is-telemedicine/">Click here!</a>
+    <hr>   
+  </body>
+</html>

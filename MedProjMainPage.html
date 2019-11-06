@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Medical Technology Home Page</title>
+  <link rel="stylesheet" type="text/css" href="commonElements.css">
+  </head>
+  <body>
+    
+    <center><table class ="navMenu" border = "1" >
+      <tr>      
+      <td><a href = "MedProjPage1.html">Smart Inhalers</a></td>
+      <td><a href = "MedProjPage2.html">Medical Applications</a></td>
+      <td><a href = "MedProjPage3.html">IOT For Healthcare</a></td>
+      <td><a href = "MedProjPage4.html">TeleMedicine</a></td>
+      <td><a href = "SurveyPage.html">Survey</a></td>
+
+      </tr>
+
+    </table>
+      </center>
+      <!--The table is a navigational menu for the linked website-->
+      <center><h1>Medical Technology</h1></center>
+
+ 
+<center><img src="https://www.extremetech.com/wp-content/uploads/2019/01/609865-medical-tech-640x360.jpg">
+</center>
+<p>When you logged on, you were asked about your interest in different medical technologies. This is a list of what you would likely be most interested in learning about based on your responses. </p>
+
+    <script>
+        var readInhaler = prompt("Do you want to know what Smart Inhalers are?","yes");
+        var readApps = prompt("Do you want to know what Medical Apps are?","yes");
+        var readIOT = prompt("Do you want to know what The Internet of Things is?","yes");
+        var readTelehealth = prompt("Do you want to know what TeleMedicine is?","yes");
+        document.write("We think these technologies would be most interesting to you:");
+        /*This part of the program suggests to users what pages they may like to read*/
+
+        if(readInhaler == "yes"|| readInhaler == "Yes" || readInhaler == "YES"){
+
+            document.write("<br><a href = MedProjPage1.html>Click here to read about Smart Inhalers</a>");
+    }
+        else{
+         document.write(" ");   
+}
+            if(readApps == "yes" || readApps == "Yes" || readApps == "YES"){
+
+                document.write("<br><a href = MedProjPage2.html>Click here to read about Apps</a>");
+                }
+      else{
+      document.write(" ");
+    }
+            if(readIOT == "yes" || readIOT == "Yes" || readIOT == "YES"){
+                document.write("<br><a href = MedProjPage3.html>Click here to read about the Internet of Things</a>");
+            }
+      else{
+      document.write("");
+    }
+
+            if(readTelehealth == "yes" || readTelehealth == "Yes" || readTelehealth == "YES"){
+                document.write("<br><a href = MedProjPage4.html>Click here to read about Telehealth</a>");
+            }
+      else{
+      document.write(" ");
+    }
+
+
+
+
+    </script>
+    <hr>
+
+<center><h1>A Medical Technology Overview</h1></center>
+<center><img src="https://cdn.asme.org/getmedia/9904b4d3-1acc-4db5-8f16-be8ed6695c4e/Top-5-Medical-Technology-Innovations_hero.jpg.aspx"></center>
+<p>Technology has  made an incredible impact on medicine. Medical technology especially in current society, plays an important role in almost every industry and in our personal lives. Out of all of the industries that technology plays a crucial role in, healthcare is one of the most important. The merging of technology and medicine is responsible for improving and saving a countless amount of lives all around the world.</p>
+<p>Medical technology is a broad field where innovation plays a crucial role in sustaining health. Areas including biotechnology, pharmaceuticals, information technology, development of medical devices and equipment, and more have all made significant contributions to improving the health of people all around the world. There are small innovations like bandages and ankle braces and larger technologies like MRI machines, artificial organs, and robotic prosthetic limbs, robotic surguries</p>
+<p> As a result of the development of brilliant medical tech innovations, healthcare professionals are more easily able to continue to find ways to improve their own practice with things like better diagnosis, surgical procedures, and improved patient care. There is constantly new  research being conducted and the testing new procedures to help prevent, diagnose, and cure diseases and the development of new drugs and medicines to improve quality of life.<br></p>
+<hr>
+<p>This website was created by Debra Perlman</p>
+
+
+
+  </body>
+</html>

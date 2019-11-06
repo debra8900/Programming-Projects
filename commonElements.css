@@ -1,0 +1,67 @@
+table{
+  font-size:20pt;
+  font-family: comic sans MS;
+  padding: 10px;
+  background-color: white;
+}
+body{
+font-size: 20pt;
+  color: dimgray;
+  background-color: LightSeaGreen;
+  font-family: rockwell;
+}
+h1{
+    font-size:44pt;
+    color:black;
+  font-family:"Courier New";
+}
+
+h2{
+    font-size: 28pt;
+
+}
+h3{
+    font-size: 20pt;
+
+}
+img{
+
+  height:300px;
+  width:600px;
+
+}
+
+
+a:link{color:#000856;}
+a:visited{color:#660066;}
+a:hover{color:yellow;}
+a:active{color:purple;}
+      hr{
+          border: 1px dashed black;
+      }
+
+.navMenu{
+  font-size:24pt;
+  font-family: Impact;
+  padding: 30px;
+  background-color:#ccffff;
+  
+}
+
+.smartInhalers{
+
+        height:400px;
+        width:350px;
+      }
+      .logoheader{
+
+        font-family:Rockwell;
+        font-size: 24pt;
+        text-align: center; 
+      }
+
+      .endPage{
+
+        text-align: center;
+
+      }

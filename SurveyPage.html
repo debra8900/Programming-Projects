@@ -1,0 +1,147 @@
+  <html>
+  <head>
+	  <link rel="stylesheet" type="text/css" href="commonElements.css">
+    <title>Medical Technology Survey</title>
+	<style>
+		body{
+			background-color: #d190e5;
+			color: navy;
+		}
+
+    .button1{
+
+            font-size: 14pt;
+            font-family:rockwell;
+    }
+    h2{
+
+      font-family: rockwell;
+    }
+
+    ol{
+      font-family:"Courier New";
+    }
+
+	</style>
+  </head>
+  <body>
+    <center><table border = "1" class="navMenu">
+      <tr>
+      <td><a href = "MedProjMainPage.html">Back to the Home Page</a></td>
+      <td><a href = "MedProjPage1.html">Smart Inhalers</a></td>
+      <td><a href = "MedProjPage2.html">Medical Applications</a></td>
+      <td><a href = "MedProjPage3.html">IOT For Healthcare</a></td>
+      <td><a href = "MedProjPage4.html">TeleMedicine</a></td>
+      <td><a href = "SurveyPage.html">Survey</a></td>
+
+      </tr>
+
+    </table>
+      </center>
+
+    <center><h2>End of Website Survey</h2></center>
+
+
+
+    <form action="mailto:dp49705n@pace.edu" method="post">
+    <ol>
+
+
+    <fieldset><li>First Name <input type="text" name="fname"><br>
+    Last Name <input type="text" name="lname"><br>
+    City <input type="text" name="city" value="New York"><br>
+    State <select name="state">
+    <option>NY</option>
+    <option>NJ</option>
+    <option>CT</option>
+    <option>PA</option>
+    <option>FL</option>
+    </select>
+    <br>
+    Phone Number <input type="text" name="cphone"><br>
+    Email <input type="text" name="email"><br>
+</fieldset></li>
+
+
+      <li><fieldset>
+         Which pages on the website did you view?
+        <br>
+        Home Page<input type="checkbox" name="page" value="homePage">
+        Smart Inhalers<input type="checkbox" name="page" value="Page1">
+        Medical Applications<input type="checkbox" name="page" value="Page2">
+        IOT in Healthcare<input type="checkbox" name="page" value="Page3">
+        Telehealth<input type="checkbox" name="page" value="Page4">
+
+        <br>
+      </fieldset></li>
+      <li>
+      <fieldset>
+      Which technology did you find most interesting?<select name="interest">
+      <option>     </option>
+      <option>Smart Inhaler</option>
+      <option>Medical Applications</option>
+      <option>IOT in Healthcare</option>
+      <option>Telehealth</option>
+      <option>N/A</option>
+      </select>
+        </fieldset></li>
+
+      <li><fieldset>
+        Would you visit this website again?
+      <input type="radio" name="visit" value="yes">Yes
+      <input type="radio" name="visit" value="no">No
+      <input type="radio" name="visit" value="maybe">Maybe
+
+
+
+        </fieldset></li>
+
+      <li><fieldset>
+        Where did you find the website?<select name="like">
+      <option>   </option>
+      <option>Google</option>
+      <option>Pace University</option>
+      <option>Other</option>
+      </select>
+        <br>Other: <input type="text" name="other">
+        </fieldset></li>
+
+       <li><fieldset>Any Additional Comments:<br>
+    <textarea rows="5" cols="50" name="Comments">
+    </textarea>
+      </fieldset></li>
+     
+
+      <li><fieldset>
+       Did you like the websites suggestion questions about each page?<select name="whichpage">
+      <option>   </option>
+      <option>Yes</option>
+      <option>No</option>
+      <option>No opinion</option>
+      </select>
+        </fieldset></li>
+
+      
+      <li><fieldset>
+        Which technology would you most likely use in your life?<select name="interest">
+      <option>     </option>
+      <option>Smart Inhaler</option>
+      <option>Medical Applications</option>
+      <option>IOT in Healthcare</option>
+      <option>Telehealth</option>
+      <option>All</option>
+      <option>None</option>
+      </select>
+        </fieldset></li>
+       <input type="submit" name="submit" class = "button1" value="Submit Survey">
+    <input type="reset" class = "button1" value="Start over">
+</ol>
+
+
+      </form>
+
+        <hr>
+    
+    <script></script>
+  </body>
+</html>
